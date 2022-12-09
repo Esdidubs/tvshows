@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TV Shows I've Watched</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <!--Icon by https://icons8.com/-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>TV Shows I've Watched <i class="fa fa-television"></i></header>
+    <div id="buttons">
+      <label for="dataSelection" id="mainLabel">Select an option</label>
+      <select name="dataSelection" id="dataSelection" class="dataDrop">
+        <option value="all">Alphabetical</option>
+        <option value="rankedBtn">By Rating</option>
+        <option value="pubDate">By Year Originally Published</option>
+        <option value="episodeCount">By Episode Count</option>
+        <option value="genre">By Genre</option>
+        <!-- <option value="director">By Director</option>
+        <option value="country">By Country of Origin</option> -->
+      </select>
+    </div>
+    <hr />
+    <div class="allTVshows"></div>
+    <div class="genreBox"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="tvshowData.js"></script>
+    <script src="functionality.js"></script>
+  </body>
+</html>

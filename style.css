@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  background-color: rgb(5, 22, 48);
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+.genreTitle {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border: solid black;
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  overflow-wrap: break-word;
+}
+
+/* .genreTitle:nth-child(odd) {
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  }
+  
+  .genreTitle:nth-child(even) {
+    border-width: 3px 4px 3px 5px;
+    border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+  } */
+
+.tvshowList {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.tvshow {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  background: #dfedee;
+
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
+  border-radius: 3px/6px;
+}
+
+.categoryTVshows,
+.genreTVshows,
+.rankTVshows,
+.pubDateTVshows {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#buttons,
+.categoryBox,
+.rankBox,
+.pubBox,
+.genreBox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#dataSelection,
+#categorySelection,
+#genreSelection,
+#rankSelection,
+#pubDateSelection {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+#mainLabel {
+  font-size: 20px;
+}
