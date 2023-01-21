@@ -432,6 +432,14 @@ let tvshowData = [
     showGenre: ["Comedy", "Crime", "Horror", "Mystery", "Sci-Fi", "Thriller"],
   },
   {
+    title: "Ghosts",
+    yearReleased: 2019,
+    episodeCount: 33,
+    watchedAll: false,
+    rating: 8,
+    showGenre: ["Comedy", "Fantasy"],
+  },
+  {
     title: "Glee",
     yearReleased: 2009,
     episodeCount: 121,
