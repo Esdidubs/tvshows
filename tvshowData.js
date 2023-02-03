@@ -436,7 +436,7 @@ let tvshowData = [
     yearReleased: 2019,
     episodeCount: 33,
     watchedAll: false,
-    rating: 8,
+    rating: 9,
     showGenre: ["Comedy", "Fantasy"],
   },
   {
