@@ -882,6 +882,12 @@ let tvshowData = [
         showGenre: ["Comedy", "Music", "Reality-TV"],
     },
     {
+        title: "The Queen's Gambit",
+        yearReleased: 2020,
+        rating: "Liked",
+        showGenre: ["Drama"],
+    },
+    {
         title: "The Returned (US)",
         yearReleased: 2015,
         rating: "Liked",
