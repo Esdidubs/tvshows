@@ -414,6 +414,12 @@ let tvshowData = [
         showGenre: ["Fantasy", "History", "War"],
     },
     {
+        title: "Jury Duty",
+        yearReleased: 2023,
+        rating: "Loved",
+        showGenre: ["Comedy"],
+    },
+    {
         title: "Kenan & Kel",
         yearReleased: 1996,
         rating: "Meh",
@@ -778,6 +784,12 @@ let tvshowData = [
         yearReleased: 1997,
         rating: "Meh",
         showGenre: ["Animation", "Comedy", "Family"],
+    },
+    {
+        title: "The Bear",
+        yearReleased: 2022,
+        rating: "Loved",
+        showGenre: ["Comedy", "Drama"],
     },
     {
         title: "The Blacklist",
