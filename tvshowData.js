@@ -240,6 +240,12 @@ let tvshowData = [
         showGenre: ["Adventure", "Drama", "Sci-Fi"],
     },
     {
+        title: "Double Fine PsychOdyssey",
+        yearReleased: 2023,
+        rating: "Loved",
+        showGenre: ["Documentary"],
+    },
+    {
         title: "Downtown Abbey",
         yearReleased: 2010,
         rating: "Liked",
