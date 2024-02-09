@@ -498,6 +498,12 @@ let tvshowData = [
         showGenre: ["Short", "Action", "Thriller"],
     },
     {
+        title: "Mr. and Mrs. Smith",
+        yearReleased: 2024,
+        rating: "Loved",
+        showGenre: ["Crime", "Action", "Thriller", "Comedy"],
+    },
+    {
         title: "Mr. Robot",
         yearReleased: 2015,
         rating: "Liked",
@@ -742,6 +748,12 @@ let tvshowData = [
         yearReleased: 2018,
         rating: "Loved",
         showGenre: ["Drama"],
+    },
+    {
+        title: "Suits",
+        yearReleased: 2011,
+        rating: "Loved",
+        showGenre: ["Drama", "Comedy"],
     },
     {
         title: "Supernatural",
@@ -1024,6 +1036,12 @@ let tvshowData = [
         yearReleased: 2022,
         rating: "Loved",
         showGenre: ["Comedy", "Crime", "Family", "Fantasy", "Mystery"],
+    },
+    {
+        title: "Welcome to Wrexham",
+        yearReleased: 2022,
+        rating: "Loved",
+        showGenre: ["Documentary", "Sports"],
     },
     {
         title: "What We Do in the Shadows",
