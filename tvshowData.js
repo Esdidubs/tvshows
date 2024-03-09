@@ -90,6 +90,12 @@ let tvshowData = [
         showGenre: ["Action", "Comedy", "Crime", "Drama"],
     },
     {
+        title: "Beef",
+        yearReleased: 2023,
+        rating: "Liked",
+        showGenre: ["Comedy", "Drama"],
+    },
+    {
         title: "Best Time Ever with Neil Patrick Harris",
         yearReleased: 2015,
         rating: "Liked",
